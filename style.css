@@ -7,7 +7,7 @@
 
 /* Impostazioni font generali */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Century Gothic', sans-serif;
   color: #333;
   background-color: #fdfdfd;
   line-height: 1.5;
@@ -85,7 +85,7 @@ body {
 }
 
 .section-benvenuto .title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Century Gothic", sans-serif;
   font-size: 3rem;
   margin-bottom: 0.5rem;
 }
@@ -118,7 +118,7 @@ body {
 }
 
 .section-info h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Century Gothic", sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -133,7 +133,7 @@ body {
 }
 
 .section-viaggio h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Century Gothic", sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -144,7 +144,7 @@ body {
 }
 
 .section-regalo h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Century Gothic", sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -169,7 +169,7 @@ body {
 }
 
 .section-galleria h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Century Gothic", sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -213,6 +213,25 @@ body {
 .appear {
   opacity: 1;
   transform: translateY(0);
+}
+
+.section-faq .faq-item {
+  margin-top: 2rem; /* Aggiunge spazio prima di ogni blocco FAQ */
+}
+
+.section-faq h2 {
+  margin-top: 3rem;      /* Spazio sopra i titoli principali */
+  margin-bottom: 1rem;   /* Spazio sotto i titoli principali */
+  text-align: center;    /* Opzionale, se vuoi centrarli */
+}
+
+
+.section-faq .faq-item h3 {
+  margin-bottom: 0.5rem; /* Spazio sotto i titoli delle FAQ */
+}
+
+.spazio-prima-feedback {
+  margin-top: 2rem; /* Oppure il valore che preferisci */
 }
 
 /* Responsive */
